@@ -63,6 +63,7 @@ h6 {
 
 .skills {
   float: left;
+  margin-top: 120px;
 }
 
 .myPicture {
@@ -104,6 +105,10 @@ h6 {
 
     .intro-divider {
         width: 100%;
+    }
+
+    .skills {
+      margin-top: 20px;
     }
 }
 
