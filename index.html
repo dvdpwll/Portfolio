@@ -1,339 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
+	<meta charset="utf-8">
+	<title>davidcpowell.com</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <script src="https://use.fontawesome.com/f1c9662943.js"></script>
-
-    <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
-
-    <title>David Powell</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+	<link rel="stylesheet" href="/css/landing-page.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">David Powell</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+	<div class="py-4">
+		<a href="/">
+			<img class="logo" src="/img/D_mark-01.png" alt="David Powell logo">
+		</a>
+	</div>
 
-<!-- <i class="fa fa-github-alt fa-fw"></i>
-      <i class="fa fa-linkedin fa-fw"></i>
-      <i class="fa fa-file fa-fw"></i> -->
+	<div class="title">
+		<h1 class="h1">David Powell</h1>
+		<p class="h5">
+			A web developer.
+		</p>
+	</div>
 
-    <!-- Header -->
-    <div class="intro-header">
-        <div class="container">
+	<ul class="nav strong">
+		<li>
+			<a href="https://www.linkedin.com/in/davidpowell456/" target="_blank">LinkedIn</a>
+		</li>
+		<li>
+			<a href="https://github.com/dvdpwll" target="_blank">GitHub</a>
+		</li>
+		<li>
+			<a href="https://drive.google.com/drive/folders/0B6TKZeUHEj43X1VGNnFVRWRPUlU" target="_blank">Résumé</a>
+		</li>
+	</ul>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>David C. Powell</h1>
-                        <h3>Web Developer</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://github.com/dvdpwll" class="btn btn-default btn-lg" target="_blank"><span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/davidpowell456" class="btn btn-default btn-lg" target="_blank"><span class="network-name">Linkedin</span></a>
-                            </li>
-                            <li>
-                                <a href="https://drive.google.com/open?id=0B6TKZeUHEj43X1VGNnFVRWRPUlU" target="_blank" class="btn btn-default btn-lg"><span class="network-name">Resume</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+	<div class="projects">
+		<p class="strong">
+			Featured Work
+		</p>
+		<div class="items">
+			<div class="work">
+				<a href="https://github.com/dvdpwll/FreeTime-Front-End" target="_blank">
+					<h4 class="name strong">FreeTime</h4>
+					<p>
+						Track your weekly schedule.
+					</p>
+				</a>
+			</div>
+			<div class="work">
+				<a href="https://github.com/dvdpwll/CrudBucket2-Front-End" target="_blank">
+					<h4 class="name strong">CRUD Bucket</h4>
+					<p>
+						Create folders and upload files.
+					</p>
+				</a>
+			</div>
+			<div class="work">
+				<a href="https://github.com/dvdpwll/GridMapCreator" target="_blank">
+					<h4 class="name strong">Map Maker</h4>
+					<p>
+						Users can create, save, and load maps.
+					</p>
+				</a>
+			</div>
+			<div class="work">
+				<a href="https://github.com/dvdpwll/TicTacToe" target="_blank">
+					<h4 class="name strong">Tic-Tac-Toe</h4>
+					<p>
+						Play a game of Tic-Tac-Toe.
+					</p>
+				</a>
+			</div>
+		</div>
+	</div>
 
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
-	<a  name="about"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h3 class="section-heading">ABOUT</h3>
-                    <p class="lead">
-                      I am a web developer who's always ready to learn new things.
-                      I became a programmer because I love that individually the
-                      lines of code don't do too much, but together they can do
-                      much more. I have experience in the following:
-                    </p>
-                    <!-- <ul class="skills">
-                      <li>JavaScript</li>
-                      <li>Ruby</li>
-                      <li>Ember</li>
-                      <li>JQuery</li>
-                    </ul>
-                    <ul class="skills">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>Ruby on Rails</li>
-                      <li>SQL</li>
-                    </ul>
-                    <ul class="skills">
-                      <li>Bootstrap</li>
-                      <li>AJAX</li>
-                      <li>C++</li>
-                      <li>Java</li>
-                    </ul> -->
-                    <br>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <!-- <img class="img-responsive myPicture" src="img/mypicture.png" alt=""> -->
-                    <ul class="skills">
-                      <li>JavaScript</li>
-                      <li>Ruby</li>
-                      <li>Ember</li>
-                      <li>JQuery</li>
-                    </ul>
-                    <ul class="skills">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>Ruby on Rails</li>
-                      <li>SQL</li>
-                    </ul>
-                    <ul class="skills">
-                      <li>Bootstrap</li>
-                      <li>AJAX</li>
-                      <li>C++</li>
-                      <li>Java</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <!-- Portfolio Item Heading -->
-    <a  name="projects"></a>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h3 class="page-header">PORTFOLIO</h3>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="https://dvdpwll.github.io/FreeTime-Front-End/" target="_blank">
-                    <img class="img-responsive port-img" src="img/David_700x400_FreeTime.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="https://dvdpwll.github.io/FreeTime-Front-End/" target="_blank">FreeTime</a>
-                </h3>
-                <p>
-                  Users can save their weekly schedules and view their schedules
-                  on a calendar. I created this to help people see their
-                  schedules to more easily see when they have freetime.</p>
-                <p>
-                  Technologies used: Ember, Ember-Power-Select, Ember-Calendar,
-                  and Ruby on Rails.
-                </p>
-                <a href="https://github.com/dvdpwll/FreeTime-Front-End" target="_blank">Github Front End</a>
-                <br>
-                <a href="https://github.com/dvdpwll/FreeTime-Back-End" target="_blank">Github Back End</a>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="https://dvdpwll.github.io/CrudBucket2-Front-End/#" target="_blank">
-                    <img class="img-responsive port-img small-screen" src="img/David_700x400_CRUDBucket.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="https://dvdpwll.github.io/CrudBucket2-Front-End/#" target="_blank">CRUD Bucket</a>
-                </h3>
-                <p>
-                  Users can upload files, create folders to store files, and
-                  view other user's files and folders. This was a group project
-                  with two other people.
-                </p>
-                <p>
-                  Technologies used: Javascript, JQuery, AJAX, Mongoose, and MongoDB.
-                </p>
-                <a href="https://github.com/dvdpwll/CrudBucket2-Front-End" target="_blank">Github Front End</a>
-                <br>
-                <a href="https://github.com/dvdpwll/CrudBucket2-Back-End" target="_blank">Github Back End</a>
-            </div>
-        </div>
-        <!-- /.row -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="https://dvdpwll.github.io/GridMapCreator/" target="_blank">
-                    <img class="img-responsive port-img" src="img/David_700x400_Maps.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="https://dvdpwll.github.io/GridMapCreator/" target="_blank">Map Maker</a>
-                </h3>
-                <p>
-                  Users can create maps, save maps, and load maps. I created this
-                  to help tabletop gamers plan their adventures.
-                </p>
-                <p>
-                  Technologies used: Javascript, JQuery, AJAX, and Ruby on Rails.
-                </p>
-                <a href="https://github.com/dvdpwll/GridMapCreator" target="_blank">Github Front End</a>
-                <br>
-                <a href="https://github.com/dvdpwll/GridMapCreatorApi" target="_blank">Github Back End</a>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="https://dvdpwll.github.io/TicTacToe/#" target="_blank">
-                    <img class="img-responsive port-img small-screen" src="img/David_700x400_TicTacToe.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="https://dvdpwll.github.io/TicTacToe/#" target="_blank">Tic-Tac-Toe</a>
-                </h3>
-                <p>
-                  Users can play TicTacToe.
-                </p>
-                <p>
-                  Technologies used: Javascript, JQuery, and AJAX.
-                </p>
-                <a href="https://github.com/dvdpwll/TicTacToe" target="_blank">Github Front End</a>
-            </div>
-        </div>
-        <br>
-        <br>
-        <p>
-          Other Programs:
-          <p><a href="https://github.com/dvdpwll/Polling" target="_blank">Polling/Survey Program, C++</a></p>
-          <p><a href="https://github.com/dvdpwll/RandomEncounter" target="_blank">Random Encounter, C++</a></p>
-          <p><a href="https://github.com/dvdpwll/GradeBook" target="_blank">Gradebook, C++</a></p>
-          <p><a href="https://github.com/dvdpwll/InternationalDicitonary" target="_blank">International Dicitonary, C++</a></p>
-          <p><a href="https://github.com/dvdpwll/VerifyCreditCard" target="_blank">Verify Credit Card, Java</a></p>
-          <p><a href="https://github.com/dvdpwll/DaysElapsed" target="_blank">Days Elapsed, Java</a></p>
-          <p><a href="https://github.com/dvdpwll/PharmTechApp" target="_blank">Pharmacy Study Guide App, Android Studio</a></p>
-
-
-
-        </p>
-      </div>
-        <!-- /.row -->
-
-        <!-- end projects -->
-
-    <a  name="contact"></a>
-    <a  name="services"></a>
-      <div class="content-section-a">
-
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-5 col-sm-6">
-                      <hr class="section-heading-spacer">
-                      <div class="clearfix"></div>
-                      <h3 class="section-heading">CONTACT</h3>
-                      <p>
-                        dvdpwll456@gmail.com
-                        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.linkedin.com/in/davidpowell456" target="_blank">LinkedIn</a>
-                        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-                        <a href="https://github.com/dvdpwll" target="_blank">Github</a>
-                      </p>
-                  </div>
-                  <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                  </div>
-              </div>
-
-          </div>
-
-      </div>
-      <!-- /.content-section-a -->
-
-
-    <!-- /.banner -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; David Powell 2017. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
+	<div class="footer">
+		<p class="strong">
+			<a href="/">&copy; David Powell</a>
+		</p>
+		<p>dvdpwll456@gmail.com</p>
+	</div>
 </body>
-
 </html>
