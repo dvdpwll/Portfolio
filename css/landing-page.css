@@ -15,11 +15,16 @@
 
  body {
  	padding: 0 2rem;
- 	font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ 	/*font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: 'Rubik', sans-serif;
  	color: #111;
  	line-height: 1.625;
  	opacity: 1;
  	transition: 1s opacity;
+ }
+
+ .strong {
+   font-weight: 700;
  }
 
  .logo {
@@ -43,7 +48,8 @@
  }
 
  .title h1 {
-  margin-bottom: 90px;
+  margin-bottom: 20px;
+  margin-left: -5px;
   font-size: 75px;
  	font-weight: 300;
  	line-height: 1.125;
@@ -56,12 +62,18 @@
  }
 
  .nav {
-  margin-left: -50px;
- 	padding: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: .33334em;
+  font-weight: 400;
  }
 
  .nav li {
- 	padding: 0 3rem;
+ 	/*padding: 0 3rem;*/
+  padding-right: 100px;
  	display: inline-block;
  }
 
@@ -70,8 +82,10 @@
    margin-bottom: 350px;
  }
 
- .strong {
-   font-weight: 700;
+ .featured {
+   text-transform: uppercase;
+   letter-spacing: .33334em;
+   font-weight: 400;
  }
 
  .name {
@@ -80,7 +94,12 @@
 
 .work {
   float: left;
+  margin-top: 30px;
   width: 33%;
+}
+
+.work p {
+  font-size: 14px;
 }
 
 .footer {
