@@ -27,6 +27,14 @@
    font-weight: 700;
  }
 
+ .test {
+   float: left;
+ }
+
+ .clear {
+   float: none;
+ }
+
  .logo {
    width: 25%;
    margin-top: 100px;
